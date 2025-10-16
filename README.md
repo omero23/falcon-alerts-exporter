@@ -1,24 +1,3 @@
-+-----------------------------+
-|   CrowdStrike Falcon API    |
-|  (alerts/combined/alerts)   |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|  Falcon Alerts Exporter.py  |
-|  - OAuth2 Authentication    |
-|  - Pagination & Retry       |
-|  - Lookback: Last 30 Days   |
-|  - Output: alerts.json      |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|   Elasticsearch / SOF-ELK   |
-|  - Daily Index: falcon-alerts-YYYY.MM.DD
-|  - Long-term Retention
-|  - Visualization in Kibana  |
-+-----------------------------+
 
 # falcon-alerts-exporter
 Python script for exporting CrowdStrike Falcon alerts and indexing into Elasticsearch (SOF-ELK)
