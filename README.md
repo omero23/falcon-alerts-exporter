@@ -1,3 +1,4 @@
+![Falcon Alerts Exporter Data Flow](A_flowchart-style_digital_illustration_titled_"Fal.png")
 
 # falcon-alerts-exporter
 Python script for exporting CrowdStrike Falcon alerts and indexing into Elasticsearch (SOF-ELK)
